@@ -90,6 +90,7 @@ def initialize():
 	__load_module_internal(['definitions', 'randomVariable'], doc.registerMetaDataDefinition)
 	__load_module_internal(['definitions', 'limitCurves'], doc.registerMetaDataDefinition)
 	__load_module_internal(['definitions', 'misc'], doc.registerMetaDataDefinition)
+	__load_module_internal(['definitions', 'responseSpectrum'], doc.registerMetaDataDefinition)
 	
 	# register all metadata of analysis steps
 	__load_module_internal(['analysis_steps', 'Patterns', 'addPattern'], doc.registerMetaDataAnalysisStep)
